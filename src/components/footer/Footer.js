@@ -7,7 +7,7 @@ export default function Footer() {
 
         <>
             <footer class="footer">
-
+                <hr />
                 <div class="footer__content">
                     <div class="footer__data">
                         <h3 class="footer__title">

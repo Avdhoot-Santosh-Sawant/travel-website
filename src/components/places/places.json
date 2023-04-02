@@ -6,6 +6,79 @@
         "title":"Taj Mahal",
         "place":"Agra",
         "amount":10000
-
+    },
+    {
+        "id":"2",
+        "img":"./k_temple.png",
+        "rating":"5",
+        "title":"Kapaleeshwarar Temple ",
+        "place":"Chennai",
+        "amount":12000
+    },
+    {
+        "id":"3",
+        "img":"./gateofindia.png",
+        "rating":"4",
+        "title":"Gateway of India",
+        "place":"Mumbai",
+        "amount":4000
+    },
+    {
+        "id":"4",
+        "img":"./gangaghat.png",
+        "rating":"5",
+        "title":"The Ganges River",
+        "place":"Varanasi",
+        "amount":14000
+    },
+    {
+        "id":"5",
+        "img":"./goa.png",
+        "rating":"4",
+        "title":"Cola Beach",
+        "place":"Goa",
+        "amount":11000
+    },
+    {
+        "id":"6",
+        "img":"./goldentemple.png",
+        "rating":"5",
+        "title":"Golden Temple ",
+        "place":"Amritsar",
+        "amount":9000
+    },
+    {
+        "id":"7",
+        "img":"./redfort.png",
+        "rating":"4.7",
+        "title":"Red Fort",
+        "place":"Delhi",
+        "amount":9000
+    },
+    
+    {
+        "id":"8",
+        "img":"./amerfort.png",
+        "rating":"4.4",
+        "title":"Amer Fort",
+        "place":"Jaipur",
+        "amount":15000
+    },
+    {
+        "id":"9",
+        "img":"./keralanationalpark.png",
+        "rating":"4.2",
+        "title":"Periyar National Park",
+        "place":"Kerala",
+        "amount":19000
+    },
+    {
+        "id":"10",
+        "img":"./sn.png",
+        "rating":"4.9",
+        "title":"Ellora Caves",
+        "place":"C. Sambhajinagar",
+        "amount":7000
     }
+
 ]
