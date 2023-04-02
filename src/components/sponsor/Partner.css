@@ -1,0 +1,18 @@
+.sponsor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sponsor__content {
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+.sponsor__img {
+  height: 20px;
+  opacity: 0.5;
+}
+
+.sponsor__img:hover {
+  opacity: 1;
+}

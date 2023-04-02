@@ -1,0 +1,72 @@
+.places__con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 20px;
+}
+
+/* place card */
+
+.place__card {
+  max-width: 350px !important;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.place__img {
+  max-width: 100%;
+  transition: all 2s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.place__card:hover img {
+  transform: scale(1.1);
+}
+
+/* rating */
+
+.place__rating {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: inline-block;
+}
+
+.place__rating-number {
+  color: black;
+  background-color: rgb(232, 248, 9);
+  padding: 5px;
+  display: inline-block;
+}
+/* place info */
+
+.place__data {
+  position: absolute;
+  bottom: -60px;
+  padding: 5px 2px;
+
+  width: 100%;
+  transition: 1s;
+  background-color: rgb(3, 28, 139);
+}
+
+.place__card:hover .place__data {
+  display: block;
+  bottom: 0px;
+}
+
+.place__title,
+.place__subtitle,
+.place__price {
+  color: white;
+}
+
+.place__price {
+  margin-left: 10px;
+}

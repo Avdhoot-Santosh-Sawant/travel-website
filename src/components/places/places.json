@@ -1,0 +1,11 @@
+[
+    {
+        "id":"1",
+        "img":"./taj.png",
+        "rating":"4.5",
+        "title":"Taj Mahal",
+        "place":"Agra",
+        "amount":10000
+
+    }
+]
