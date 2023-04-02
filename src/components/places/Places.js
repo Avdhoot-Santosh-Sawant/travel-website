@@ -1,7 +1,6 @@
 import React from "react";
 import './Places.css'
 import places from './places.json'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Places() {
 
@@ -31,7 +30,7 @@ const PlaceCard = (props) => {
                 <img src={props.data.img} alt="" class="place__img" />
 
                 <span class="place__rating">
-                    <FontAwesomeIcon icon="fa-regular fa-star" />
+                    <span><img alt="" src="./rating_icon.png" width={'20px'} /></span>
                     <span class="place__rating-number">{props.data.rating}</span>
                 </span>
 
