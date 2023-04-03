@@ -1,0 +1,111 @@
+#about,
+#why,
+#mission {
+  margin: 40px 10px 20px 10px;
+  text-align: center;
+}
+
+.about-data {
+  display: grid;
+  grid-template-columns: auto;
+}
+.about_info {
+  padding: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.img-holder {
+  display: block;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  height: auto;
+  margin-bottom: 20%;
+  margin-top: 20px;
+}
+
+#about-img1 {
+  width: 80%;
+}
+#about-img2 {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 60%;
+}
+
+.why,
+.mission {
+  padding: 20px;
+}
+
+.why h4 {
+  margin: 5px 10px;
+}
+
+.mission p {
+  margin: 10px 2px;
+}
+
+.experience {
+  width: 70%;
+  margin: 40px auto;
+  text-align: center;
+  color: rgb(2, 2, 83);
+}
+
+.exp_data {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 30px 30px;
+}
+
+@media screen and (min-width: 700px) {
+  .about-data {
+    grid-template-columns: auto auto;
+  }
+
+  .about_info {
+    padding: 10px 50px;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .img-holder {
+    margin-bottom: 10%;
+  }
+
+  #about-img1 {
+    width: 60%;
+  }
+  #about-img2 {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 40%;
+  }
+
+  .why,
+  .mission {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .why h4 {
+    margin: 5px 10px;
+  }
+
+  .mission p {
+    margin: 10px 2px;
+  }
+
+  #explore-about p,
+  ul {
+    font-size: 18px;
+  }
+}

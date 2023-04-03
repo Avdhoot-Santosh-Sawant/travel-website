@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 import Places from './components/places/Places';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/Home/Home';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
       <Navbar />
       <Home />
+      <About />
       <Places />
       <Partner />
       <Footer />

@@ -25,7 +25,7 @@ export default function Navbar() {
                                 <a href="#discover" class="nav__link">Discover</a>
                             </li>
                             <li class="nav__item">
-                                <a href="#place" class="nav__link">Places</a>
+                                <a href="#places" class="nav__link">Places</a>
                             </li>
                         </ul>
 

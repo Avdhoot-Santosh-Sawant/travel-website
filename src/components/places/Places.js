@@ -8,15 +8,17 @@ export default function Places() {
 
     return (
         <>
-            <div>
-                <h2 style={{ textAlign: 'center', marginTop: '20px' }}>Best Places To Visit</h2>
-            </div>
-            <div className="places__con">
-                {
-                    places.map((place, index) => {
-                        return <PlaceCard data={place} />
-                    })
-                }
+            <div id="places">
+                <div>
+                    <h2 style={{ textAlign: 'center', marginTop: '20px' }}>Best Places To Visit</h2>
+                </div>
+                <div className="places__con">
+                    {
+                        places.map((place, index) => {
+                            return <PlaceCard data={place} />
+                        })
+                    }
+                </div>
             </div>
         </>
     )
