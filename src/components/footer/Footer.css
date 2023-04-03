@@ -1,10 +1,16 @@
 .footer {
   margin: 40px 10px;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer__description {
+  text-align: center;
 }
 
 .footer__content {
   margin: 20px 10px;
+  text-align: center;
 }
 
 .footer__data {

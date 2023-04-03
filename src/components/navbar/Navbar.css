@@ -65,12 +65,13 @@
     width: auto;
     border-left: none;
     top: 0px;
+    padding: 10px 10px;
     height: 54px;
     right: 20px;
   }
   .nav__list {
     display: flex;
-    gap: 15px;
+    gap: 30px;
   }
 
   .nav__item {
