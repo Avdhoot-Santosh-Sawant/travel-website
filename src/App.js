@@ -1,7 +1,7 @@
-
+import React from 'react';
 import './App.css';
-import Partner from './components/sponsor/Partner';
-import Footer from './components/footer/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Places from './components/places/Places';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/Home/Home';
@@ -11,12 +11,14 @@ function App() {
   return (
     <div className="App">
 
-      <Navbar />
-      <Home />
-      <About />
-      <Places />
-      <Partner />
-      <Footer />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/about' element={<About />} />
+          <Route exact path='/places' element={<Places />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
