@@ -1,6 +1,7 @@
 .img-con {
   position: relative;
   height: 100vh;
+  width: 100%;
 }
 .bg-img {
   position: absolute;
@@ -20,6 +21,9 @@
   transform: translate(-50%, -50%);
   color: rgb(8, 2, 8);
   text-transform: capitalize;
+}
+.home-info h3 {
+  color: rgb(124, 4, 124);
 }
 
 #expore_btn {
