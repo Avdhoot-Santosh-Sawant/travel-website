@@ -1,11 +1,10 @@
 import React from "react";
 import './About.css'
+import Footer from '../footer/Footer'
 
 export default function About() {
 
-    const focusImg = (e) => {
-        console.log(e)
-    }
+
     return (
         <>
             <div id="explore-about">
@@ -25,12 +24,8 @@ export default function About() {
 
                     <div>
                         <div className="img-holder">
-                            <img alt="." loading="lazy" src="about_img1.jpg" id="about-img1" onFocus={(e) => { focusImg() }} />
-                            <img alt="." loading="lazy" src="about_img2.jpg" id="about-img2" onFocus={(e) => {
-                                focusImg(
-
-                                )
-                            }} />
+                            <img alt="." loading="lazy" src="about_img1.jpg" id="about-img1" />
+                            <img alt="." loading="lazy" src="about_img2.jpg" id="about-img2" />
                         </div>
                     </div>
                 </div>
@@ -98,46 +93,7 @@ export default function About() {
                     </p>
 
                 </div>
-
-
-
-
-                <div className="experience">
-                    <h2>With Our Experience
-                        We Will Serve You</h2>
-
-                    <div className="exp_data">
-                        <div>
-                            <h2>10</h2>
-                            <h3>Year
-                                Experience</h3>
-                        </div>
-                        <div>
-                            <h2>50</h2>
-                            <h3>Complete
-                                tours</h3>
-                        </div>
-                        <div>
-                            <h2>100+</h2>
-                            <h3>Tourist
-                                Destination</h3>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                <Footer />
             </div>
         </>
     );

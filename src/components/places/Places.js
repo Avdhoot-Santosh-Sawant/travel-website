@@ -1,6 +1,8 @@
 import React from "react";
 import './Places.css'
 import places from './places.json'
+import Partner from '../sponsor/Partner'
+import Footer from '../footer/Footer'
 
 export default function Places() {
 
@@ -19,6 +21,9 @@ export default function Places() {
                         })
                     }
                 </div>
+
+                <Partner />
+                <Footer />
             </div>
         </>
     )
