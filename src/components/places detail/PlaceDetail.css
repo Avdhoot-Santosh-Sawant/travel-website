@@ -1,0 +1,159 @@
+.detail-con {
+  display: grid;
+  grid-template-columns: auto;
+}
+.back-btn {
+  margin: 10px;
+}
+
+.place_detail {
+  width: 80%;
+  margin: auto;
+}
+
+.place_detail h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.detail_img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.detail_des {
+  text-indent: 20px !important;
+}
+
+/* booking card */
+
+.booking {
+  margin: 30px auto;
+  max-width: 400px !important;
+}
+
+.booking_con {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.booking_head {
+  padding: 20px;
+  background-color: rgb(233, 171, 55);
+  border-radius: 20px;
+}
+
+.booking_input {
+  padding: 20px;
+}
+
+.booking_input span {
+  font-size: large;
+  margin-right: 20px;
+}
+.no_ticket_input {
+  width: 70px;
+  padding: 5px;
+}
+
+.additional_service {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.total_amount {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.proceed-btn {
+  margin: 20px;
+  color: white;
+  background-color: orange;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .detail-con {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .back-btn {
+    margin-left: 40px;
+  }
+
+  .place_detail {
+    width: 80%;
+    margin: auto;
+    padding: 10px 5%;
+  }
+
+  .detail_img {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+
+  .detail_des {
+    text-indent: 20px !important;
+    font-size: larger;
+  }
+
+  /* booking card */
+
+  .booking {
+    margin: 30px 10px;
+  }
+
+  .booking_con {
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  .booking_head {
+    padding: 20px;
+    background-color: rgb(233, 171, 55);
+    border-radius: 20px;
+  }
+
+  .booking_input {
+    padding: 20px;
+  }
+
+  .booking_input span {
+    font-size: large;
+    margin-right: 20px;
+  }
+  .no_ticket_input {
+    width: 70px;
+    padding: 5px;
+  }
+
+  .additional_service {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+
+  .total_amount {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+  }
+
+  .proceed-btn {
+    margin: 20px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+}

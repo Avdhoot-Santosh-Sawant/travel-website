@@ -1,11 +1,12 @@
 [
     {
         "id":"1",
-        "img":"./taj.png",
+        "img":"taj.png",
         "rating":"4.5",
         "title":"Taj Mahal",
         "place":"Agra",
-        "amount":10000
+        "amount":10000,
+        "des":"The Taj Mahal is a white marble mausoleum located in Agra, India. It was built by the Mughal emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal. The monument is renowned for its beautiful architecture and intricate carvings, and it is considered one of the Seven Wonders of the World. The Taj Mahal attracts millions of visitors every year and is a symbol of love and devotion."
     },
     {
         "id":"2",
@@ -13,23 +14,26 @@
         "rating":"5",
         "title":"Kapaleeshwarar Temple ",
         "place":"Chennai",
-        "amount":12000
-    },
+        "amount":12000,
+        "des":"Kapaleeshwarar Temple is a Hindu temple located in the city of Chennai, India. It is dedicated to Lord Shiva, one of the most important deities in Hinduism. The temple has a unique architectural style and is known for its towering gopuram (entrance tower) and colorful decorations. The temple attracts many visitors and devotees throughout the year, especially during important Hindu festivals such as Maha Shivaratri."
+        },
     {
         "id":"3",
         "img":"./gateofindia.png",
         "rating":"4",
         "title":"Gateway of India",
         "place":"Mumbai",
-        "amount":4000
+        "amount":4000,
+        "des":"The Gateway of India is a famous monument located in Mumbai, India. It was built in 1924 to commemorate the visit of King George V and Queen Mary to Mumbai. The monument is a large archway made of yellow basalt and concrete and stands on the waterfront overlooking the Arabian Sea. It is a popular tourist attraction and a symbol of Mumbai's rich history and culture."
     },
     {
         "id":"4",
         "img":"./gangaghat.png",
         "rating":"5",
-        "title":"The Ganges River",
+        "title":"The Ganga River",
         "place":"Varanasi",
-        "amount":14000
+        "amount":14000,
+        "des":"The Ganga River is a big river in India that runs through the northern part of the country. It is believed to be holy by Hindus and is worshipped as a goddess. The river begins in the Himalayas and flows for about 2,525 km until it reaches the Bay of Bengal. The river is very important for India's economy, culture, and environment. It is very famous in the city of Varanasi, where many people go to bathe in the river and perform religious ceremonies. "
     },
     {
         "id":"5",
@@ -37,7 +41,8 @@
         "rating":"4",
         "title":"Cola Beach",
         "place":"Goa",
-        "amount":11000
+        "amount":11000,
+        "des":"The Cola Beach is a beautiful and quiet beach in Goa, India. It has clear blue-green water, soft golden sand, and palm trees. The beach is not too crowded, and you can swim, sunbathe, and enjoy the natural beauty. There's also a freshwater lagoon nearby, which makes it even more special. The Cola Beach is a peaceful place to relax and unwind."
     },
     {
         "id":"6",
@@ -45,7 +50,8 @@
         "rating":"5",
         "title":"Golden Temple ",
         "place":"Amritsar",
-        "amount":9000
+        "amount":9000,
+        "des":"The Golden Temple is a prominent Sikh temple located in the city of Amritsar in Punjab, India. It is considered the holiest Gurdwara and is visited by millions of devotees every year. The temple's architecture, adorned with gold plating and intricate designs, is a testament to the Sikh community's artistic and cultural heritage. The Sarovar, a sacred pool surrounding the temple, is believed to have healing powers. The temple's langar hall serves free meals to visitors of all faiths, highlighting the Sikh community's philosophy of selfless service and social welfare. The Golden Temple is a place of immense religious and cultural significance, as well as a major tourist attraction."
     },
     {
         "id":"7",
@@ -53,7 +59,8 @@
         "rating":"4.7",
         "title":"Red Fort",
         "place":"Delhi",
-        "amount":9000
+        "amount":9000,
+        "des":"The Red Fort is a historic fort located in Old Delhi, India. It was built in the 17th century by Mughal Emperor Shah Jahan as his palace and served as the political center of the Mughal Empire. The fort is made of red sandstone and features impressive architecture, including intricate carvings and stunning gates. Today, it is an important tourist attraction and a UNESCO World Heritage Site."
     },
     
     {
@@ -62,7 +69,9 @@
         "rating":"4.4",
         "title":"Amer Fort",
         "place":"Jaipur",
-        "amount":15000
+        "amount":15000,
+        "des":"The Amer Fort is a majestic fortress located in Jaipur, India. It was built in the 16th century by Raja Man Singh I and is known for its exquisite architecture and stunning views. The fort is a popular tourist destination and is recognized as a UNESCO World Heritage Site. Its historical significance lies in its connection to the Rajput rulers of Jaipur and their rich cultural heritage."
+        
     },
     {
         "id":"9",
@@ -70,7 +79,8 @@
         "rating":"4.2",
         "title":"Periyar National Park",
         "place":"Kerala",
-        "amount":19000
+        "amount":19000,
+        "des":"Periyar National Park is a popular tourist destination located in Kerala, India. It is known for its rich biodiversity and beautiful scenic views. The park is home to various species of animals including tigers, elephants, and leopards. The park was established in 1982 and is an important wildlife sanctuary in India. Visitors can enjoy activities like trekking, boating, and wildlife safaris while exploring the park."
     },
     {
         "id":"10",
@@ -78,7 +88,8 @@
         "rating":"4.9",
         "title":"Ellora Caves",
         "place":"C. Sambhajinagar",
-        "amount":7000
+        "amount":7000,
+        "des":"Ellora Caves is a UNESCO World Heritage site located in Chattrapati Sambhajinagar, India. It is a complex of 34 caves that were carved into the basaltic rock between the 6th and 10th centuries CE. The caves are a blend of Buddhist, Hindu, and Jain art and architecture, showcasing the religious harmony that existed in ancient India. The caves attract tourists from all over the world and are considered to be one of the most significant archaeological sites in India."
     }
 
 ]

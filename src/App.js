@@ -6,6 +6,7 @@ import Places from './components/places/Places';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import PlaceDetail from './components/places detail/PlaceDetail';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route exact path='/about' element={<About />} />
           <Route exact path='/places' element={<Places />} />
+          <Route exact path='/places/:id' element={<PlaceDetail />} />
         </Routes>
       </Router>
     </div>

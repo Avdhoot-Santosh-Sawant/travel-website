@@ -11,7 +11,7 @@ export default function Home() {
             <div >
                 <div className='img-con'>
                     <img alt='' src='home.png' className='bg-img' />
-                    <div class='home-info'>
+                    <div className='home-info'>
 
                         <h1>Explore the best beautiful places</h1>
                         <h3 style={{ margin: '20px' }}>Discover your next adventure with us</h3>

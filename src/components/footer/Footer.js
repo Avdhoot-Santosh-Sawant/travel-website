@@ -6,14 +6,14 @@ export default function Footer() {
     return (
 
         <>
-            <footer class="footer">
+            <footer className="footer">
                 <hr />
-                <div class="footer__content">
-                    <div class="footer__data">
-                        <h3 class="footer__title">
-                            <img alt='logo' src={'logo.png'} />
+                <div className="footer__content">
+                    <div className="footer__data">
+                        <h3 className="footer__title">
+                            <img alt='logo' src={'/logo.png'} />
                         </h3>
-                        <p class="footer__description">
+                        <p className="footer__description">
                             Travel you choose the <br />
                             destination, we offer you the <br />
                             experience.
@@ -21,90 +21,90 @@ export default function Footer() {
                         <div>
                             <a
                                 href=""
-                                class="footer__social"
+                                className="footer__social"
                                 target='_blank'
 
                             >
-                                <i class="ri-facebook-box-fill"></i>
+                                <i className="ri-facebook-box-fill"></i>
                             </a>
                             <a
                                 href=""
                                 target="_blank"
-                                class="footer__social"
+                                className="footer__social"
                             >
-                                <i class="ri-twitter-fill"></i>
+                                <i className="ri-twitter-fill"></i>
                             </a>
                             <a
                                 href=""
                                 target="_blank"
-                                class="footer__social"
+                                className="footer__social"
                             >
-                                <i class="ri-instagram-fill"></i>
+                                <i className="ri-instagram-fill"></i>
                             </a>
                             <a
                                 href=""
                                 target="_blank"
-                                class="footer__social"
+                                className="footer__social"
                             >
-                                <i class="ri-youtube-fill"></i>
+                                <i className="ri-youtube-fill"></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">About</h3>
+                    <div className="footer__data">
+                        <h3 className="footer__subtitle">About</h3>
                         <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">About Us</a>
+                            <li className="footer__item">
+                                <a href="" className="footer__link">About Us</a>
                             </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Features</a>
+                            <li className="footer__item">
+                                <a href="" className="footer__link">Features</a>
                             </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">New & Blog</a>
+                            <li className="footer__item">
+                                <a href="" className="footer__link">New & Blog</a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Company</h3>
+                    <div className="footer__data">
+                        <h3 className="footer__subtitle">Company</h3>
                         <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Team</a>
+                            <li className="footer__item">
+                                <a href="" className="footer__link">Team</a>
                             </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Plan y Pricing</a>
+                            <li className="footer__item">
+                                <a href="" className="footer__link">Plan y Pricing</a>
                             </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Become a member</a>
+                            <li className="footer__item">
+                                <a href="" className="footer__link">Become a member</a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Support</h3>
+                    <div className="footer__data">
+                        <h3 className="footer__subtitle">Support</h3>
                         <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">FAQs</a>
+                            <li className="footer__item">
+                                <a href="" className="footer__link">FAQs</a>
                             </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Support Center</a>
+                            <li className="footer__item">
+                                <a href="" className="footer__link">Support Center</a>
                             </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Contact Us</a>
+                            <li className="footer__item">
+                                <a href="" className="footer__link">Contact Us</a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="footer__rights">
-                    <p class="footer__copy">
+                <div className="footer__rights">
+                    <p className="footer__copy">
                         &#169; All rigths reserved.
                     </p>
-                    <div class="footer__terms">
+                    <div className="footer__terms">
 
-                        <a href="" class="footer__terms-link">Terms & Agreements</a>
-                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                        <a href="" className="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" className="footer__terms-link">Privacy Policy</a>
                     </div>
                 </div>
 
