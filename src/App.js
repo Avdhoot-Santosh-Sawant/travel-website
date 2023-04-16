@@ -11,7 +11,7 @@ import PlaceDetail from './components/places detail/PlaceDetail';
 function App() {
   return (
     <div className="App">
-
+{/*this comment added  */}
       <Router>
         <Navbar />
         <Routes>
